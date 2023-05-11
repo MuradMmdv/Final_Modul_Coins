@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.input-field{
+    height: 15px;
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+.leftFilters{
+    display: flex;
+    flex-direction: column;
+}
+
+.formInput{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.rightInputs{
+    display: flex;
+    margin-left: 20px;
+}
+label, .upside1, .upside2{
+    font-weight: 500;
+}
+
+.rightFilters{
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    padding-left: 60px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search{
+    width: 120px;
+}
+.fromTo{
+    margin-top: 45px;
+    margin-right: 10px;
+}
+.homeInput{
+    width: 350px;
+    margin-right: 10px;
+    height: 45px;
+}
+
+.upside1{
+    margin-top: 10px;
+    margin-right: -80px;
+}
+.upside2{
+    margin-top: 10px;
+    margin-right: -135px;
+}
+
+.homeInputAd{
+    width: 150px;
+    margin-right: 10px;
+    height: 45px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.homeInputAdLeft{
+    width: 350px;
+    margin-right: 10px;
+    height: 45px;
+    Margin-top: 0;
+}
+.adFilters{
+    display: flex;
+    padding-top: 10px;
+    margin-left: 50px;
+
+}
+
+.input-search{
+margin-left: 50px;
+    height: 50px;
+    margin-top: -10px;}
+
+.homepage{
+    margin: 20px 0 30px 50px;
+    font-size: 60px;
+    font-weight: 300;
+    color: black;
+}
+
+h1{
+    color: blueviolet;
+}
+
+.container{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.htwoForHome{
+    font-weight: 500;
+    margin-bottom: 0
+}
+
+.container-part{
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.input-search{
+    display: flex;
+}
+
+.search{
+    color: white;
+    background-color: blueviolet;
+}
+
+button, .link{
+    border: none;
+    color: black;
+    background-color: white;
+    text-decoration:none;
+
+}
+
+.buttonForHome{
+    width: 90px;
+    display: block;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+.advancedFilter{
+    margin-left: 50px;
+}
+
+.imageForHome{
+    width: 200px;
+    height: 202px;
+    margin-top: -30px;
+}
+
+.coinsBul{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+}
+
+.coinDesc{
+    width: 250px;
+}
+
+li{
+    list-style: none;
+}
+
+.forFlex{
+    display: flex;
+    padding-top: 15px;
+}
+
+.descAndName{
+    margin-top: -15px;
+    padding: 0 0 20px 20px;
+cursor: pointer;
+}
+
+    .nameBul{
+        color: blueviolet;
+    }
+
+    .imgBul{
+        width: 120px;
+        height: 120px;
+    }

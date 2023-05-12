@@ -96,8 +96,8 @@ const Home = () => {
                 onRequestClose={() => handleClose(coin.id)}
             >
                 <h2>{coin.coinname}</h2>
-                <img className='imgBul' src={`${process.env.PUBLIC_URL}./img/${coin.images}`} alt=''/> 
-                <img className='imgBul' src={`${process.env.PUBLIC_URL}./img/${coin.images_2}`} alt=''/>
+                <div className='popupImg'><img className='imgBul' src={`${process.env.PUBLIC_URL}./img/${coin.images}`} alt=''/> 
+                <img className='imgBul' src={`${process.env.PUBLIC_URL}./img/${coin.images_2}`} alt=''/></div>
                 <p>Country: {coin.country}</p>
                 <p>Composition: {coin.composition}</p>                   
                 <p>Denomination: {coin.denomination}</p>

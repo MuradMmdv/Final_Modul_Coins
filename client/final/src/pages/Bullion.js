@@ -65,18 +65,20 @@ const Bullion = () => {
                     isOpen={isOpen[coin.id]}
                     contentLabel="Example Modal"
                     onRequestClose={() => handleClose(coin.id)}
+                    className="popup"
                 >
-                    <h2>{coin.coinname}</h2>
-                    <img className='imgBul' src={`${process.env.PUBLIC_URL}./img/${coin.images}`} alt=''/> 
-                    <img className='imgBul' src={`${process.env.PUBLIC_URL}./img/${coin.images_2}`} alt=''/>
+                    <div className='popupContainerDiv'>
+                    <div className='popupImg'><img className='imgBul' src={`${process.env.PUBLIC_URL}./img/${coin.images}`} alt=''/> 
+                <img className='imgBul' src={`${process.env.PUBLIC_URL}./img/${coin.images_2}`} alt=''/></div>
+                    <div className='popupRightSide'><h2>{coin.coinname}</h2>
+                    <p>Description: {coin.description}</p>
                     <p>Country: {coin.country}</p>
                     <p>Composition: {coin.composition}</p>                   
                     <p>Denomination: {coin.denomination}</p>
-                    <p>Description: {coin.description}</p>
                     <p>Price: {coin.price}</p>
                     <p>Quality: {coin.quality}</p>
                     <p>Weight: {coin.weight} g </p>
-                    <p>Year: {coin.years}</p>
+                    <p>Year: {coin.years}</p></div></div>
                 </ReactModal>
                </div> 
             ))}

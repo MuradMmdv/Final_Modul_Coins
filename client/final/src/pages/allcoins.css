@@ -28,6 +28,35 @@ label, .upside1, .upside2{
     font-weight: 500;
 }
 
+.popup{
+    position: absolute;
+    inset: 40px;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    top: 100px;
+    left: 200px;
+    right: 500px;
+    height: 700px;
+}
+
+.popupRightSide{
+    display: flex;
+    flex-direction: column;
+    width: 452px;
+}
+
+.popupContainerDiv{
+display: flex;
+}
+.popupImg{
+    display: flex;
+    flex-direction: column;
+}
+
 .rightFilters{
     /* display: grid;
     grid-template-columns: repeat(2, 1fr); */
